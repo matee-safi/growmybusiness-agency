@@ -1,1 +1,1 @@
-# GrowYourBusiness
+# GrowMyBusiness
