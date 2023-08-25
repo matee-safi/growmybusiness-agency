@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 5%;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #fff;
+    color: #000;
+    display: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

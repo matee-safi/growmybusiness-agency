@@ -1,0 +1,19 @@
+Footer {
+    border-top: 1px solid #fff;
+    margin-top: 100px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
