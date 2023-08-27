@@ -3,7 +3,11 @@
     align-items: center;
     padding: 20px 5%;
     margin-bottom: 50px;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.navbar h3 {
+    border-bottom: 2px solid rgb(8, 154, 180);
 }
 
 .btn {
