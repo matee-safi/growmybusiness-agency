@@ -38,7 +38,7 @@ body {
 }
 
 .email-btn {
-    background: radial-gradient(#23a6b8, #176aa1);
+    background: radial-gradient(#49CCFC, #215ED0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ body {
     margin: 0 auto;
     margin-top: 30px;
     padding: 15px;
-    box-shadow: 10px 0 100px 10px rgba(56, 192, 255, 0.2);
+    box-shadow: 10px 0 100px 15px rgba(56, 192, 255, 0.2);
     color: #fff;
 }
 
