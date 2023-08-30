@@ -12,7 +12,7 @@ const IndexPage = () => {
       <div className="main-section">
         <h2>AMPLIFY YOUR SALES</h2>
         <h1>With Digital Marketing</h1>
-        <p>Elevate your online presence without the hassle. We understand that maintaining an impactful online image can be both frustrating and time-consuming.</p>
+        <p>Elevate your online presence without the hassle.<br />We understand that maintaining an impactful online image can be both frustrating and time-consuming.</p>
         <p>But fear not, with our dedicated team of professionals, the process becomes seamless, efficient, and tailored to your brand's success.</p>
         <ContactForm buttonLabel={
           <div>
