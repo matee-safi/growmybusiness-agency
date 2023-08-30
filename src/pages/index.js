@@ -24,7 +24,7 @@ const IndexPage = () => {
             
       <div className="about-us-section">
         <h1>Our Approach</h1><br />
-        <p>At GrowMyBusiness, we're all about embracing the digital revolution. Remember that saying:<br /><span className="quote">"If you're not online, you're not in business!"</span><br /> It's been five years since those words were spoken, and the clock is ticking. The future belongs to the digitally daring, and we're here to take you there.</p><br />
+        <p>At GrowMyBusiness, we're all about embracing the digital revolution. As a wise man once said:<br /><span className="quote">"Any business that doesn't have an online presence will cease to exist within ten years." </span><br /> It's been five years since those words were spoken, and the clock is ticking. The future belongs to the digitally daring, and we're here to take you there.</p><br />
         <p>We're not just another digital marketing agency. We're the team that turns clicks into triumphs and views into victories. From captivating copy to captivating campaigns, we're the architects of your online journey.</p><br />
         <b>Why settle for a presence when you can own the digital stage? Let's write the script of your success together.</b>
       </div><br /><br />

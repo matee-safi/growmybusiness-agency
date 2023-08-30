@@ -37,7 +37,7 @@ const ContactForm = ({ buttonLabel }) => {
             <form onSubmit={handleSubmit} className={styles.form}>
               <input type="text" name="name" placeholder="Your Name" required />
               <input type="email" name="email" placeholder="Your Email" required />
-              <textarea name="message" placeholder="Your Message" rows={5} required />
+              <textarea name="message" placeholder="Your Message" rows={10} required />
               <button type="submit" className={styles.sendButton}>Send</button>
             </form>
           </div>
