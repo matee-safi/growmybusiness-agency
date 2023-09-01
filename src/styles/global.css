@@ -74,6 +74,12 @@ body {
     transform: scale(1.05);
 }
 
+.success {
+    background: #53BFA7;
+    box-shadow: none;
+    width: fit-content !important;
+}
+
 .about-us-section {
     text-align: left;
     padding: 15px;
