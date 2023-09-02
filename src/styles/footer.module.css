@@ -1,0 +1,29 @@
+.footer {
+    border-top: 1px solid #fff;
+    margin-top: 100px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 25px 10%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+}

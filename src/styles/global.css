@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'IBM Plex Sans';
+    text-align: center;
+}
+
+.main-section {
+    padding: 0 5% 40px;
+    text-align: center;
+    color: white;
+}
+
+.main-section h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.main-section h1 {
+    margin-bottom: 20px;
+    background-image: linear-gradient(45deg, #78e5f3, #176aa1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.main-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.email-btn {
+    background: radial-gradient(#49CCFC, #215ED0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 15px;
+    box-shadow: 10px 0 100px 15px rgba(56, 192, 255, 0.2);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.email-btn div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-btn h2 {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.email-btn small {
+    font-size: 0.9rem;
+}
+
+.email-btn:hover {
+    box-shadow: none;
+    transform: scale(1.05);
+}
+
+.success {
+    background: #53BFA7;
+    box-shadow: none;
+    width: fit-content !important;
+}
+
+.about-us-section {
+    text-align: left;
+    padding: 15px;
+    padding: 40px 5%;
+}
+
+.about-us-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-weight: bold;
+    font-style: italic;
+    background-image: radial-gradient(#2baabb, #37acfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-card {
+    background: linear-gradient(45deg, #23a6b8, #176aa1);
+    color: white;
+    min-height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 15px;
+    width: 300px;
+}
+
+.service-card h2 {
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    margin-bottom: 0;
+}
+
+.faq-container {
+    margin-top: 100px !important;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    background-image: linear-gradient(45deg, #78e5f3, #176aa1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.faq {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.faq h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.faq p {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .main-section {
+        padding: 0 20% 40px;
+    }
+
+    .main-section h2 {
+        font-size: 2rem;
+    }
+
+    .main-section h1 {
+        font-size: 3rem;
+    }
+
+    .main-section p {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+
+    .email-btn {
+        margin-top: 40px;
+        width: 60%;
+    }
+
+    .about-us-section {
+        font-size: 1.4rem;
+    }
+
+    .about-us-section p {
+        font-size: 1.4rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .services-container {
+        padding: 20px 5%;
+    }
+
+    .service-card {
+        padding: 40px;
+    }
+
+    .service-card h2 {
+        font-size: 1.8rem;
+    }
+
+    .service-card p {
+        font-size: 1.2rem;
+    }
+
+    .faq-container h1 {
+        font-size: 2.5rem;
+        margin-bottom: 70px;
+    }
+
+    .faq {
+        padding: 40px;
+        margin: 40px 0;
+    }
+
+    .faq h3 {
+        font-size: 1.6rem;
+    }
+
+    .faq p {
+        font-size: 1.2rem;
+    }
+}
