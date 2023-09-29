@@ -8,9 +8,14 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+  ],
   siteMetadata: {
-    title: 'Grow My Business',
-    description: 'We help you boost your sales through online marketing.'
+    title: 'GrowMyBusiness',
+    description: 'We help you boost your sales through online marketing.',
+    image: '/favicon.png',
+    siteUrl: 'https://www.growmybusiness.agency',
   }
 }

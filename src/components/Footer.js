@@ -12,10 +12,9 @@ const Footer = () => {
       <div className='center'>
       <h3>Join our social media group</h3><br />
       <ul>
-        <a href="https://www.instagram.com/growmybusiness.agency/"><img src="/instagram.png" width={30} alt="instagram-icon" /></a>
-        <a href="https://facebook.com/"><img src="/facebook.png" width={30} alt="facebook-icon" /></a>
-        <a href="https://www.linkedin.com/company/growmybusiness-agency/"><img src="/linkedin.png" width={30} alt="linkedin-icon" /></a>
-        <a href="https://twitter.com/_GrowMyBusiness"><img src="/twitter.png" width={30} alt="twitter-icon" /></a>
+        <a className="links" href="https://www.instagram.com/growmybusiness.agency/" target="blank"><img src="/instagram.png" width={30} alt="instagram-icon" /></a>
+        <a className="links" href="https://www.linkedin.com/company/growmybusiness-agency/" target="blank"><img src="/linkedin.png" width={30} alt="linkedin-icon" /></a>
+        <a className="links" href="https://twitter.com/_GrowMyBusiness" target="blank"><img src="/twitter.png" width={30} alt="twitter-icon" /></a>
       </ul><br /><br />
       <h3>Let's Disscuss What's Next</h3>
       <p>Have any questions?</p>

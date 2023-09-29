@@ -14,7 +14,7 @@ body {
 }
 
 .main-section {
-    padding: 0 5% 40px;
+    padding: 0 5% 100px;
     text-align: center;
     color: white;
 }
@@ -82,8 +82,8 @@ body {
 
 .about-us-section {
     text-align: left;
-    padding: 15px;
-    padding: 40px 5%;
+    background-size: cover;
+    padding: 20px 5%;
 }
 
 .about-us-section p {
@@ -157,10 +157,30 @@ body {
     margin-bottom: 10px;
 }
 
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.img-container img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.links {
+    transition: all 0.2s ease-in-out;
+}
+
+.links:hover {
+    transform: scale(1.2);
+}
+
 @media screen and (min-width: 768px) {
 
     .main-section {
-        padding: 0 20% 40px;
+        padding: 0 20% 100px;
     }
 
     .main-section h2 {
@@ -183,6 +203,15 @@ body {
 
     .about-us-section {
         font-size: 1.4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img-container {
+        order: 2;
+        margin-right: 0;
+        margin-left: auto;
+        margin-top: 80px;
     }
 
     .about-us-section p {

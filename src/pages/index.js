@@ -2,12 +2,19 @@ import * as React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
+import { Helmet } from "react-helmet";
+import favicon from "../images/favicon.png";
 import '../styles/global.css';
 
 const IndexPage = () => {
   return (
     <main>
       <Navbar />
+
+      <Helmet>
+        <link rel="icon" href={favicon} />
+        <title>GrowMyBusiness</title>
+      </Helmet>
 
       <div className="main-section">
         <h2>AMPLIFY YOUR SALES</h2>
@@ -23,10 +30,16 @@ const IndexPage = () => {
       </div>
             
       <div className="about-us-section">
-        <h1>Our Approach</h1><br />
-        <p>At GrowMyBusiness, we're all about embracing the digital revolution. As a wise man once said:<br /><span className="quote">"Any business that doesn't have an online presence will cease to exist within ten years." </span><br /> It's been five years since those words were spoken, and the clock is ticking. The future belongs to the digitally daring, and we're here to take you there.</p><br />
-        <p>We're not just another digital marketing agency. We're the team that turns clicks into triumphs and views into victories. From captivating copy to captivating campaigns, we're the architects of your online journey.</p><br />
-        <b>Why settle for a presence when you can own the digital stage? Let's write the script of your success together.</b>
+        <div className="img-container">
+          <img src="/AI-bot.png" alt="AI bot saying Hi" />
+        </div>
+        <div>
+          <h1>Our Approach</h1><br />
+          <p>At GrowMyBusiness, we're more than just a digital marketing agency. We are pioneers in using the latest AI technologies to propel your business into the digital future.</p>
+          <p>Our mission is clear: to empower businesses like yours with cutting-edge digital strategies that not only establish a strong online presence but also ensure your long-term success.</p>
+          <p>With our dedicated team of experts and a commitment to innovation, we craft tailored solutions that drive growth, engagement, and brand recognition.</p>
+          <p>Join us on this exciting journey as we leverage the power of AI and digital marketing to transform your business.</p>
+        </div>
       </div><br /><br />
 
       <h1>SERVICES</h1>
