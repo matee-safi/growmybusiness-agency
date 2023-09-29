@@ -28,10 +28,10 @@ const IndexPage = () => {
           </div>
         } className="email-btn" />
       </div>
-            
+
       <div className="about-us-section">
         <div className="img-container">
-          <img src="/AI-bot.png" alt="AI bot saying Hi" />
+          <img src="/AI-bot.webp" alt="AI bot saying Hi" />
         </div>
         <div>
           <h1>Our Approach</h1><br />
